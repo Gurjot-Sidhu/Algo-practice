@@ -12,7 +12,7 @@ function firstDuplicate(a) {
     var found = 0
     for ( i = 0; i < a.length; i++){
         for(j = 0; j< a.length; a++){
-            if(i[a] === j[a]){
+            if(a[i] === a[j]){
                 return i[a]
             }else{
                 return -1
