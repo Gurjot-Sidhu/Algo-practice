@@ -10,14 +10,19 @@ such elements, return -1.
 */
 function firstDuplicate(a) {
     var found = 0
+    var distance = 0
+    var olddistance = 0
     for ( i = 0; i < a.length; i++){
         for(j = 0; j< a.length; a++){
             if(a[i] === a[j]){
-                return i[a]
+                olddistance = j - i
+                if(distance > olddistance){
+                    distance === olddistance
+                }
+            return olddistance
             }else{
                 return -1
             }
         }
     }
 }
-
