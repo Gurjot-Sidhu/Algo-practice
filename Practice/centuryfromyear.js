@@ -14,3 +14,5 @@ function centuryFromYear(year){
         return newstr.slice(0,2)
     }
 }
+
+//working solution
