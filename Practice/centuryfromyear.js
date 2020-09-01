@@ -11,6 +11,6 @@ function centuryFromYear(year){
         return parseInt(newstr.slice(0,2)) + 1
     }else{
         newstr = year.toString()
-        return newstr 
+        return newstr.slice(0,2)
     }
 }
