@@ -1,0 +1,4 @@
+/* 
+check if a string is a palindrome
+return true or false
+*/
