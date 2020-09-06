@@ -13,5 +13,5 @@ function removekfroml(l,k){
             }
         })
     }
-   
-    
+    return newl
+}
