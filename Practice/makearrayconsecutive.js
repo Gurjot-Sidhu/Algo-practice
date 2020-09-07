@@ -10,4 +10,5 @@ function makeArrayConsecutive(statues){
         var min = statues[0]
         var diff = (max-min+1)
 
-    }
+    return diff - statues.length
+}
