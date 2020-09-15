@@ -16,7 +16,6 @@ function mergeTwoLists(l1,l2){
             l2 = l2.next
         }else{
             l.val = l1.val
-            l.next = 
         }
     }
 }
