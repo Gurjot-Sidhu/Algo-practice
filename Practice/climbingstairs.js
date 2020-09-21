@@ -9,5 +9,6 @@ function climbingStairs = n =>{
     for(i = 2; i++ <= n;){
         a[i] = a[i - 1] + a[i -2]
     }
-    
+
+    return a[n]
 }
