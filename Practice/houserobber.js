@@ -5,5 +5,5 @@ triggering that alarm
 */
 
 function houseRobber(nums){
-    for
+    return Math.floor(nums.length/2)
 }
