@@ -6,5 +6,5 @@ value and return the new length
 
 function removeElement(nums,value){
     var filtered = array.filter(function(val,index,nums){return val != value})
-    return filtered.length;
+    return console.log(filtered.length);
 }
