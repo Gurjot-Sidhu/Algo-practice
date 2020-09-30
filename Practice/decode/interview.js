@@ -18,5 +18,5 @@ function decodeways(s){
             f[i] += f[i-2];
         }
     }
-    re
+    return f[s.length - 1]
 }
