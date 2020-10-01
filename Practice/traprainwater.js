@@ -5,9 +5,11 @@ Given n non negative integeres representing an elevation map where the
 
 function rainWater(height){
     var counter = 0;
-    for(var i = 0;i<height.length;i++){
+    for(var i = 0;i< height.length;i++){
         if(height[i] === 1 && height[i-1] === 0 && height[i+1] > 0){
-            var leftheight =
+            var leftheight = height[i-1];
+            var rightheight = height[i+1];
+            
         }
     }
 }
