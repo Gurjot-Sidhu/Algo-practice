@@ -9,7 +9,10 @@ function rainWater(height){
         if(height[i] === 1 && height[i-1] === 0 && height[i+1] > 0){
             var leftheight = height[i-1];
             var rightheight = height[i+1];
-            
+            if(leftheight >= 1 && rightheight >= 1){
+                counter ++;
+                if()
+            }
         }
     }
 }
