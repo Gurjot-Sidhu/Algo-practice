@@ -12,7 +12,7 @@ function rainWater(height){
             if(leftheight >= 1 && rightheight >= 1){
                 counter ++;
                 if(height[i-2] >= 1 && height[i+2] >= 1){
-                    
+                    counter = counter + 3
                 }
             }
         }
