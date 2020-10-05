@@ -17,4 +17,5 @@ function rainWater(height){
             }
         }
     }
+    return counter
 }
