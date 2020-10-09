@@ -19,5 +19,5 @@ function rotateList(head,k){
             }
         }
     }
-    return  head
+    return  head.slice(0,1)
 }
