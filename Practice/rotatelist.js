@@ -14,6 +14,8 @@ function rotateList(head,k){
             head[i] = head[i+k]
             if(head[i] > k){
                 head[i-k] = head[i]
+            }else if(head[i] +i< k){
+                
             }
         }
     }
