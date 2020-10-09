@@ -19,4 +19,5 @@ function rotateList(head,k){
             }
         }
     }
+    return  head
 }
