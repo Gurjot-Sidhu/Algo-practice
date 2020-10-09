@@ -9,7 +9,8 @@ function rotateList(head,k){
     for(var i = 0;i<head.length;i++){
         var newpos;
         if(i+k > len){
-            head[i] = head[(i+k)% len]
+           head[i] = head[(i+k)% len]
+           console.log(head[i])
         }else if(i+k < len){
             head[i] = head[i+k]
             if(head[i] > k){
@@ -19,5 +20,5 @@ function rotateList(head,k){
             }
         }
     }
-    return  head.slice(0,1)
+    return  console.log(head.slice(0,1))
 }
