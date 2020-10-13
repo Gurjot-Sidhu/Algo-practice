@@ -19,7 +19,7 @@ function rotateList(head,k){
                 head[i+2] = head[i]
             }
         }
-        retuen head[i+2]
+        return console.log(head[i+2])
     }
     return  console.log(head.slice(0,1))
 }
