@@ -17,6 +17,7 @@ function rotateList(head,k){
                 head[i-k] = head[i]
             }else if(head[i] +i< k){
                 head[i+2] = head[i]
+                len = len+1
             }
         }
         return console.log(head[i+2]) + 4
