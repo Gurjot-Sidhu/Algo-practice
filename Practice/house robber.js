@@ -1,0 +1,5 @@
+/* 
+Houses are arranged in a cricle where there is an alarm system
+that activates when two adjacent houses are robbed
+how many houses can you rob without tripping the alarm
+*/
