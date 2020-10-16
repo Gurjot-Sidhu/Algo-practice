@@ -10,7 +10,7 @@ function robber(s){
         if(s.length % 2 === 0){
             total = total + s[i]
         }else{
-            total =
+            total = 
         }
     }
 }
