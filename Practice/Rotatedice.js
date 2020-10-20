@@ -20,4 +20,7 @@ function minDominoRotations(A,B){
         }
     }
     m=0
+    for(var l=0;l<B.length;b++){
+        
+    }
 }
