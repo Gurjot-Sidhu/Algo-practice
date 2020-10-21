@@ -21,6 +21,10 @@ function minDominoRotations(A,B){
     }
     m=0
     for(var l=0;l<B.length;b++){
-        
+        if(b[l] == b[l+1]){
+            m++
+        }else{
+            b[l+1] = a[l+1]
+        }
     }
 }
