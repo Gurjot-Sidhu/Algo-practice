@@ -8,6 +8,8 @@ function asteroid(list){
     for(var i=0;i<list.length;i++){
         if(list[i] < 0 && list[i+1] > 0 && list[i] + list[i+1] !== 0){
             list.splice(i,1)
+        }else if(list[i] > 0 && list[i+1] < 0 && list[i] + list[i+1] !== 0){
+            list.splice(i+1,1)
         }
     }
 }
