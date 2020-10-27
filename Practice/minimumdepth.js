@@ -9,7 +9,8 @@ function mindepth(root){
         if(isNaN(root[i]) === false && currentc === 0){
             currentc = 0
         }else if(isNaN(root[i]=== true && currentc === 0)){
-
+            currentc = 0
+            currentc++
         }
     }
 }
