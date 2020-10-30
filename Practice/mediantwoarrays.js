@@ -2,7 +2,7 @@
 Given two sorted arrays return the median of two arrays
 */
 var nums1 = [1,3];
-var nums2 = [2];
+var nums2 = [2,3,4];
 
 function sortedmedian(nums1,nums2){
     var nums3 = nums1.concat(nums2);
