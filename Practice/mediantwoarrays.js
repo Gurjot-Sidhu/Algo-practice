@@ -12,8 +12,8 @@ function sortedmedian(nums1,nums2){
         median = (nums3[(Math.floor(nums3.length/2))] + nums3[(Math.floor(nums3.length/2 + 1))]) / 2
         console.log(median)
     }else if{
-         median = nums3[nums3.length/2] + nums3[nums3.length/2-1]
-         console.log(median)
+        median = (nums3[nums3.length/2] + nums3[nums3.length/2-1])/2
+        console.log(median)
     }
-
+    return median
 }
