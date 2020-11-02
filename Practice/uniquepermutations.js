@@ -10,7 +10,8 @@ function perm (nums){
         return results
     }
     for(var i = 0;i < nums.length;i++){
-        
+        var first = nums[0]
+        var innerperm = nums.splice(1)
     }
     
 }
