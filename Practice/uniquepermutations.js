@@ -13,9 +13,9 @@ function perm (nums){
         var first = nums[0]
         var innerperm = nums.splice(1)
         for(var j = 0;j < innerperm.length;j++){
-            
+            results += innerperm
         }
 
     }
-    
+    return results
 }
