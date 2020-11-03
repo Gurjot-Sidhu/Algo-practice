@@ -12,6 +12,10 @@ function perm (nums){
     for(var i = 0;i < nums.length;i++){
         var first = nums[0]
         var innerperm = nums.splice(1)
+        for(var j = 0;j < innerperm.length;j++){
+            
+        }
+
     }
     
 }
