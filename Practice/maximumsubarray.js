@@ -14,4 +14,5 @@ function maximumsubarray(nums){
             return -1
         }
     }
+    return sum
 }
