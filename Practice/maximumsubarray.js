@@ -8,9 +8,10 @@ function maximumsubarray(nums){
         var sum = 0 
         if(nums[i] + nums[i+1] > sum){
             sum += nums[i] + nums[i+1]
-        }else if{
-            nums[i] + nums[i+1] + nums[i+2] > sum
+        }else if(nums[i] + nums[i+1] + nums[i+2] > sum){
             sum = nums[i] + nums[i+1] + nums[i+2] 
+        }else{
+            return -1
         }
     }
 }
