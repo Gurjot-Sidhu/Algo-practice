@@ -1,6 +1,7 @@
 /* 
 Given a sorted array find the position of a target value and its duplicates or return -1
 */
+//Tested on leetcode and it works 
 
 function finder(nums,target){
     var foundpos = [];
@@ -12,6 +13,5 @@ function finder(nums,target){
             foundpos.push(i)
         }
     }
-
     return foundpos
 }
