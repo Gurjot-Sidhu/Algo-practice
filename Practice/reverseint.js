@@ -2,10 +2,11 @@
 Given an 32 bit integer reverse the digits of said integer
 */
 
-function reverse(int){
-    if(int === 0){
+function reverse(x){
+    if(x === 0){
         return 0
     }else{
-        int.toString(),split('').reverse().join('')
+        var newi = x.toString().split('').reverse().join('')
+        return parseInt(newi,10)
     }
 }
