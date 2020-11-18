@@ -7,5 +7,10 @@ function search(nums,target){
     if(nums.indexOf(target) === 0){
         foundpos = -1
     }
-   
+    for(var i = 0; i < nums.length;i++){
+        if(nums[i] === target){
+            foundpos = i
+        }
+    }
+    return foundpos
 }
