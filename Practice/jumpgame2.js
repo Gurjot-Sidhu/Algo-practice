@@ -5,7 +5,9 @@ amount of jumps needed to reach the end.
 */
 
 function jump(nums){
+    var maxjumplength = 0;
     var jumps = 0;
+    var newjump = [];
     for(var i = 0;i<nums.length;i++){
         if(nums[0] + nums[i] === nums.length){
             jumps = 2
