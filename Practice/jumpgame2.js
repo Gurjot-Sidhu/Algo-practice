@@ -13,6 +13,8 @@ function jump(nums){
             jumps = 2
         }else if(nums[1] + nums[2] === nums.length){
             jumps = 3
+        }else{
+            return 0
         }
     }
     return jumps
