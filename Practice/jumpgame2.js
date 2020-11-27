@@ -11,7 +11,7 @@ function jump(nums){
     for(var i = 0;i<nums.length;i++){
         if(nums[i] + nums[i+2] === nums.length){
             jumps = 2
-        }else if(nums[1] + nums[2] === nums.length){
+        }else if(nums[i+2] + nums[i+3] === nums.length){
             jumps = 3
         }else{
             return 0
