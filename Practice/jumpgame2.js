@@ -9,7 +9,7 @@ function jump(nums){
     var jumps = 0;
     var newjump = [];
     for(var i = 0;i<nums.length;i++){
-        if(nums[0] + nums[i] === nums.length){
+        if(nums[i] + nums[i+2] === nums.length){
             jumps = 2
         }else if(nums[1] + nums[2] === nums.length){
             jumps = 3
