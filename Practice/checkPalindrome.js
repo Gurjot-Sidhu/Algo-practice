@@ -13,3 +13,11 @@ function palindrome(string){
             }
         }
 }
+
+/* 
+Attempt 2 
+*/
+
+function palindrome(x){
+
+}
