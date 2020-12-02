@@ -21,4 +21,5 @@ Attempt 2
 function palindrome(x){
     if(x < 0) return false;
     let reversed = parseInt(x.toString().split('').reverse().join(''),10)
+    return x === reversed
 }
