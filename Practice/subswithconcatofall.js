@@ -5,5 +5,10 @@ concatenation of each word.
 */
 
 function findSubs(s,words){
-    
+    var answers = []
+    for(var i = 0; i < words.length;i++){
+        if(s.includes(words[i])){
+
+        }
+    }
 }
