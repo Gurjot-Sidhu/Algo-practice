@@ -8,6 +8,9 @@ function atoi(s){
         if(parseInt(s,10)){
             return parseInt(s,10)
         }
+        if(s.includes("-")){
+            return -(parseInt(s,10))
+        }
     }else{
         return 0
     }
